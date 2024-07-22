@@ -55,6 +55,7 @@ public class Game {
             game.addMissingChar(input);
             logic.updateSolved(input);
             System.out.println(logic.getCurrentlySolved());
+            System.out.println();
             if (logic.getWrongGuesses() >= GameLogic.MAX_WRONG_GUESSES) {
                 break;
             }
